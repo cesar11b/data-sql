@@ -1,0 +1,10 @@
+1. crear tablas devolucion de cliente de la empresa con su correspondiente detalle y
+   la tabla devolucion de la empresa al proveedor con su correspondiente detalle
+
+2. actualizar inventario por devoluciones
+
+3. actualizar subtotal y total de las devoluciones verificando la aplicacion de iva
+
+nota: recuerde que ninguna empresa le devolvera dinero solo hara el cambio del producto
+o le entregara un producto similar con el mismo precio si el producto esta descontinuado
+(insert)
