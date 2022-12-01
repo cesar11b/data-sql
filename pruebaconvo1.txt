@@ -1,0 +1,17 @@
+sistema de venta de tickets y productos en cinemarck
+
+considere:
+
+el cine tiene varias salas y en cada sala hay varias tandas al dia
+
+asuma que la capacidad maxima del cine son 200 asientos
+
+el sistema debe valorar la disponibilidad de espacios en determinado horario
+
+el usuario del cine tambien puede comprar en el cafetin los combos o productos individuales.
+
+
+crear tablas, proc almacenados, funciones, trigger y transaciones manejando las excepciones para gestionar dichos sistemas
+
+hora de inicio 9:07 hora de fin 11:07
+
