@@ -1,0 +1,23 @@
+Sol Terra Restaurantes.
+
+Empresa dedicada al servicio de comida tradicional y de alta cocina. Dicha empresa solicita un especialista en análisis de base de datos para proponer un cubo de datos para presentar información estratégica de los áreas sustanciales de su negocio. 
+
+1. Enumere y explique las estructuras en esquema estrella o copo de nieve que se pudieran formar de la base de operacional. (Dimensiones y hechos candidatos) 
+
+R//
+
+El esquema estrella y el copo de nieve son dos tipos de modelos de datos utilizados en la creación de bases de datos relacionales. En ambos modelos, existe una tabla de hechos central que se conecta a varias tablas de dimensiones. La principal diferencia entre ambos esquemas radica en cómo se almacenan las tablas de dimensiones.
+
+En el esquema estrella, las tablas de dimensiones se conectan directamente a la tabla de hechos, mientras que en el modelo de copo de nieve, las tablas de dimensiones se dividen en varias tablas para reducir la redundancia de datos.
+
+A continuación, se enumeran algunas posibles estructuras de esquema estrella o copo de nieve que se podrían formar a partir de una base de datos operacional:
+
+1. Esquema estrella simple: una tabla de hechos central conectada directamente a varias tablas de dimensiones. Por ejemplo, una tabla de hechos de ventas conectada a las tablas de dimensiones de clientes, productos y fechas.
+
+2. Esquema estrella con dimensiones adicionales: una tabla de hechos central conectada a varias tablas de dimensiones, pero con la adición de una o más tablas de dimensiones adicionales. Por ejemplo, una tabla de hechos de ventas conectada a las tablas de dimensiones de clientes, productos, fechas y una tabla adicional de dimensiones para la información geográfica.
+
+3. Copo de nieve simple: una tabla de hechos central conectada a varias tablas de dimensiones, pero con las tablas de dimensiones divididas en subtablas para reducir la redundancia de datos. Por ejemplo, una tabla de hechos de ventas conectada a una tabla de dimensiones de clientes, que a su vez está conectada a las tablas de subdimensiones de información de contacto y demográfica.
+
+4. Copo de nieve con dimensiones adicionales: una tabla de hechos central conectada a varias tablas de dimensiones, pero con las tablas de dimensiones divididas en subtablas y con la adición de una o más tablas de dimensiones adicionales. Por ejemplo, una tabla de hechos de ventas conectada a una tabla de dimensiones de productos, que a su vez está conectada a las subtablas de dimensiones de categorías y proveedores, y también conectada a una tabla adicional de dimensiones para la información de promociones.
+
+En resumen, la estructura en esquema estrella o copo de nieve dependerá de la complejidad y el alcance de los datos en la base operacional, y se diseñará en función de las necesidades y requerimientos de la organización.
